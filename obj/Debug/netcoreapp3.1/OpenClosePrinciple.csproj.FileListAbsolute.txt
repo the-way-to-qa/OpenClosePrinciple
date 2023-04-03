@@ -1,0 +1,5 @@
+C:\Users\Jack\Work\the-way-to-qa\OpenClosePrinciple\obj\Debug\netcoreapp3.1\OpenClosePrinciple.csproj.AssemblyReference.cache
+C:\Users\Jack\Work\the-way-to-qa\OpenClosePrinciple\obj\Debug\netcoreapp3.1\OpenClosePrinciple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jack\Work\the-way-to-qa\OpenClosePrinciple\obj\Debug\netcoreapp3.1\OpenClosePrinciple.AssemblyInfoInputs.cache
+C:\Users\Jack\Work\the-way-to-qa\OpenClosePrinciple\obj\Debug\netcoreapp3.1\OpenClosePrinciple.AssemblyInfo.cs
+C:\Users\Jack\Work\the-way-to-qa\OpenClosePrinciple\obj\Debug\netcoreapp3.1\OpenClosePrinciple.csproj.CoreCompileInputs.cache

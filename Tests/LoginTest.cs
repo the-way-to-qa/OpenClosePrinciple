@@ -1,18 +1,28 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
-[TestClass]
-public class LoginTest
+
+namespace OpenClosePrinciple.Tests
 {
-    private IWebDriver driver;
-    private LoginPage loginPage;
-
-    [TestInitialize]
-    public void TestInitialize()
+    [TestFixture]
+    public class LoginTest
     {
-        driver = new ChromeDriver();
-        loginPage = new LoginPage(driver);
-    }
+        private IWebDriver? driver;
+        private LoginPage? loginPage;
 
+        [SetUp]
+        public void TestInitialize()
+        {
+            driver = new ChromeDriver();
+            loginPage = new LoginPage(driver);
+        }
+
+        [Test]
+        public void TestLogin() => driver?.Navigate().GoToUrl("https://www.ilabquality.com/");
+
+        [TearDown]
+        public void TestCleanup() => driver?.Quit();
+
+    }
 }
