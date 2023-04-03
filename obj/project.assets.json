@@ -396,6 +396,18 @@
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
         }
       },
+      "Selenium.WebDriverBackedSelenium/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.1.0"
+        },
+        "compile": {
+          "lib/net5.0/Selenium.WebDriverBackedSelenium.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Selenium.WebDriverBackedSelenium.dll": {}
+        }
+      },
       "System.Reflection.Metadata/1.6.0": {
         "type": "package",
         "compile": {
@@ -1056,6 +1068,25 @@
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
+    "Selenium.WebDriverBackedSelenium/4.1.0": {
+      "sha512": "tQ9iDx/oo4gl1N5JFz1YrwuxYz7XA8pgkiqyUvED6xUFhQualUzgWlfjymhPwdBx5uRYAJWro6w063Yt2P3Y4g==",
+      "type": "package",
+      "path": "selenium.webdriverbackedselenium/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/Selenium.WebDriverBackedSelenium.dll",
+        "lib/net46/Selenium.WebDriverBackedSelenium.dll",
+        "lib/net47/Selenium.WebDriverBackedSelenium.dll",
+        "lib/net48/Selenium.WebDriverBackedSelenium.dll",
+        "lib/net5.0/Selenium.WebDriverBackedSelenium.dll",
+        "lib/netstandard2.0/Selenium.WebDriverBackedSelenium.dll",
+        "lib/netstandard2.1/Selenium.WebDriverBackedSelenium.dll",
+        "selenium.webdriverbackedselenium.4.1.0.nupkg.sha512",
+        "selenium.webdriverbackedselenium.nuspec"
+      ]
+    },
     "System.Reflection.Metadata/1.6.0": {
       "sha512": "COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "type": "package",
@@ -1086,7 +1117,8 @@
       "NUnit3TestAdapter >= 4.4.2",
       "Selenium.Support >= 4.8.2",
       "Selenium.WebDriver >= 4.8.2",
-      "Selenium.WebDriver.ChromeDriver >= 111.0.5563.6400"
+      "Selenium.WebDriver.ChromeDriver >= 111.0.5563.6400",
+      "Selenium.WebDriverBackedSelenium >= 4.1.0"
     ]
   },
   "packageFolders": {
@@ -1162,6 +1194,10 @@
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
             "version": "[111.0.5563.6400, )"
+          },
+          "Selenium.WebDriverBackedSelenium": {
+            "target": "Package",
+            "version": "[4.1.0, )"
           }
         },
         "imports": [

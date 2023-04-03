@@ -1,6 +1,4 @@
 ﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using System;
 
 
 namespace OpenClosePrinciple.PageObjects
@@ -21,6 +19,10 @@ namespace OpenClosePrinciple.PageObjects
         public void FillTextBox(By locator, string text)
         {
             driver?.FindElement(locator).SendKeys(text);
+        }
+
+        public void Type(By locator, string text) { 
+            driver?.FindElement(locator)?.SendKeys(text);
         }
     }
 }

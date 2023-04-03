@@ -102,3 +102,4 @@ C:\Users\Jack\Work\the-way-to-qa\OpenClosePrinciple\bin\Debug\net6.0\zh-Hant\Mic
 C:\Users\Jack\Work\the-way-to-qa\OpenClosePrinciple\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\Jack\Work\the-way-to-qa\OpenClosePrinciple\obj\Debug\net6.0\OpenClosePrinciple.csproj.CopyComplete
 C:\Users\Jack\Work\the-way-to-qa\OpenClosePrinciple\obj\Debug\net6.0\OpenClosePrinciple.genruntimeconfig.cache
+C:\Users\Jack\Work\the-way-to-qa\OpenClosePrinciple\bin\Debug\net6.0\Selenium.WebDriverBackedSelenium.dll

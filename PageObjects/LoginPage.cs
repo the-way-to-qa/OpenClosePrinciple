@@ -1,5 +1,4 @@
 ﻿using OpenQA.Selenium;
-using System;
 using OpenClosePrinciple.PageObjects;
 
 public class LoginPage : BasePageObject

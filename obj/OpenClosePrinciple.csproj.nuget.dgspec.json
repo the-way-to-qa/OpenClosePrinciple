@@ -73,6 +73,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[111.0.5563.6400, )"
+            },
+            "Selenium.WebDriverBackedSelenium": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             }
           },
           "imports": [

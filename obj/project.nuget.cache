@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "227DRN5q13SvBvN4ac5LQ2Co18VuaI7tUAWrZ8CnmUpDWRsVw4ZjocA/54hCBmQTcitXTPumw0iuEiW5dXbXqQ==",
+  "dgSpecHash": "HLZ+0rUJhb/jtxlrJGTfodiJxw7X0oCl3CY7jB5xmEj9sJ2I2NXUGZm5RBIYGtgyVLv/WSpRrV97sik13gIqlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jack\\Work\\the-way-to-qa\\OpenClosePrinciple\\OpenClosePrinciple.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\Jack\\.nuget\\packages\\selenium.support\\4.8.2\\selenium.support.4.8.2.nupkg.sha512",
     "C:\\Users\\Jack\\.nuget\\packages\\selenium.webdriver\\4.8.2\\selenium.webdriver.4.8.2.nupkg.sha512",
     "C:\\Users\\Jack\\.nuget\\packages\\selenium.webdriver.chromedriver\\111.0.5563.6400\\selenium.webdriver.chromedriver.111.0.5563.6400.nupkg.sha512",
+    "C:\\Users\\Jack\\.nuget\\packages\\selenium.webdriverbackedselenium\\4.1.0\\selenium.webdriverbackedselenium.4.1.0.nupkg.sha512",
     "C:\\Users\\Jack\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
